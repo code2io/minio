@@ -43,6 +43,9 @@ additionalAnnotations: {}
 ## flux, so set to "true" to disable this behaviour.
 ignoreChartChecksums: false
 
+## Init container to run before minio container
+initContainers: []
+
 ## Additional arguments to pass to minio binary
 extraArgs: []
 # example for enabling FTP:
